@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const multer = require("multer");
-const komikController = require("../controllers/komikController");
+const komikController = require("../controllers/komikController.js");
 const upload = multer({ dest: "uploads/" });
 
 // Routes for Komik
